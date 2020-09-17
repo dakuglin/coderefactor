@@ -12,8 +12,8 @@
     <header class="header"> <!-- changed the <div class="header"> tag to <header class="header"> tag to define the container of 
         intoductiory content of the webpage (same class specification)-->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div> 
-            <nav> <!-- inserted <nav> tag around group of <a> tags (large block of navigation links)-->
+        <nav> <!--changed this from a <div> to a <nav> and fixed styling issues on style.css file-->
+            <div> 
                 <ul>
                     <li>
                         <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -25,15 +25,16 @@
                         <a href="#social-media-marketing">Social Media Marketing</a>
                     </li>
                 </ul>
-            </nav> <!-- inserted </nav> tag around group of <a> tags (large block of navigation links)-->
-        </div>  
+            </div> 
+        </nav>  <!--changed this from a </div> to a </nav>-->
     </header> <!-- changed the </div> tag to </header> to close out tag-->
 
 
     <div src="./images/digital-marketing-meeting.jpg" class="hero"></div> 
     <main class="content"> <!--changed from  <div class="content"> and inserted <main> tag to specify main content of the webpage, 
         kept same class specification -->
-         <div id="search-engine-optimization" class="search-engine-optimization"> <!--COMMENT HERE-->
+         <div id="search-engine-optimization" class="search-engine-optimization"> <!--needed to add 
+            id="search-engine-optimization" with the class in order to get the link to work-->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Search engine optimization" /> <!--Added
             an alt to the image (alternative text)-->
             <h2>Search Engine Optimization</h2>
